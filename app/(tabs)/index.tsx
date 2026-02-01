@@ -8,9 +8,11 @@ import { ThemedView } from "@/components/themed-view";
 import { Link } from "expo-router";
 import { Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { TopBar } from "@/components/view/top-bar";
 export default function Index() {
   return (
     <>
+      <TopBar />
       <Text className="text-2xl text-red-600">Hi Hello</Text>
     </>
   );
